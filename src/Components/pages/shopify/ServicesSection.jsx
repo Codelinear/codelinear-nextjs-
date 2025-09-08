@@ -581,7 +581,7 @@ export default function ServicesSection() {
                   SEO & Content
                 </h4>
                 <p className="text-[#8C8C8C] text-[20px] mb-4 italic">
-                  Rank higher. Sell more.
+                  Rank higher. Sell more
                 </p>
               </div>
 
@@ -959,7 +959,7 @@ export default function ServicesSection() {
                   Analytics & Tracking
                 </h4>
                 <p className="text-[#8C8C8C] text-[20px] mb-4 italic">
-                  Know your numbers. Scale with confidence.
+                  Know your numbers. Scale with confidence
                 </p>
               </div>
 
@@ -1083,7 +1083,7 @@ export default function ServicesSection() {
                   Support & Maintenance
                 </h4>
                 <p className="text-[#8C8C8C] text-[20px] mb-4 italic">
-                  We don’t just build it. We stay with you.
+                  We don’t just build it. We stay with you
                 </p>
               </div>
 

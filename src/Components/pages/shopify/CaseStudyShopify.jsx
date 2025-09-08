@@ -34,7 +34,7 @@ const CaseStudyShopify = () => {
               onClick={scrollToTop}
               className="w-[317px] widescreen:w-full widescreen:w-[500px] max-sm:w-[270px] h-[338px] widescreen:h-[600px] max-sm:h-[420px] flex-col justify-start items-start gap-[36px] max-sm:gap-[18px] inline-flex"
             >
-              <div className="flex-col   max-1xl:w-[40%] h-full  max-lg:w-[100%] max-sm:w-full justify-start items-start gap-[42px] inline-flex">
+              <div className="flex-col   max-1xl:w-[40%] h-full  max-lg:w-[100%] max-sm:w-full justify-between items-start gap-[42px] inline-flex">
                 <div className="pl-[0.14px] w justify-end items-center inline-flex w-full h-full">
                   <Image
                     className="w-full h-full"
@@ -87,7 +87,7 @@ const CaseStudyShopify = () => {
               onClick={scrollToTop}
               className="w-[317px] widescreen:w-full widescreen:w-[500px] max-sm:w-[270px] h-[338px] widescreen:h-[600px] max-sm:h-[420px] flex-col justify-start items-start gap-[36px] max-sm:gap-[18px] inline-flex"
             >
-              <div className="flex-col   max-1xl:w-[40%] h-full  max-lg:w-[100%] max-sm:w-full justify-start items-start gap-[42px] inline-flex">
+              <div className="flex-col   max-1xl:w-[40%] h-full  max-lg:w-[100%] max-sm:w-full justify-between items-start gap-[42px] inline-flex">
                 <div className="pl-[0.14px] w justify-end items-center inline-flex w-full h-full">
                   <Image
                     className="w-full h-full"
