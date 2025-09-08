@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ShopifyHero() {
   return (
     <div className=" bg-white relative pt-10 overflow-hidden bg-[url('/shopify/bg.png')] bg-contain bg-no-repeat  bg-top max-2xl:bg-cover">
@@ -66,12 +68,18 @@ export default function ShopifyHero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <button className="bg-[#F6C917] hoverbg-yellow-500 text-black font-[400] px-8 py-4 rounded-full transition-colors">
+            <Link
+              href="/services/ecommerce-marketplace-development/shopify#calendly"
+              className="bg-[#F6C917] hoverbg-yellow-500 text-black font-[400] px-8 py-4 rounded-full transition-colors"
+            >
               Book a strategy call
-            </button>
-            <button className="border-[1px] hover:bg-[#F6C917] hover:border-[#F6C917] border-[#000000] text-[#000]  font-normal px-8 py-4 rounded-full transition-colors bg-white">
+            </Link>
+            <Link
+              href="/services/ecommerce-marketplace-development/shopify#calendly"
+              className="border-[1px] hover:bg-[#F6C917] hover:border-[#F6C917] border-[#000000] text-[#000]  font-normal px-8 py-4 rounded-full transition-colors bg-white"
+            >
               Get a store audit
-            </button>
+            </Link>
           </div>
 
           {/* Reviews Section */}

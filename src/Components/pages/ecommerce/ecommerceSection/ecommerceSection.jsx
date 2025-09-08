@@ -66,7 +66,7 @@ const ESection = () => {
             <div className="flex justify-between items-center w-full">
               <h3>Shopify</h3>
               <Link
-                href="/services/ecommerce/shopify"
+                href="/services/ecommerce-marketplace-development/shopify"
                 className="hover:bg-yellow-400 hover:border-yellow-400 arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] border border-black justify-center items-center inline-flex"
               >
                 <svg
