@@ -1,0 +1,156 @@
+.adupt-svg {
+  background-image: url("./aduptsvg/dollar.svg");
+  background-repeat: no-repeat;
+}
+.adupt-cards {
+  transition: 0.5s;
+}
+.adupt-cards:hover {
+  filter: invert(100%);
+}
+
+.adupt-svg2 {
+  background-image: url("./aduptsvg/supply.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg3 {
+  background-image: url("./aduptsvg/bulb.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg4 {
+  background-image: url("./aduptsvg/heart.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg5 {
+  background-image: url("./aduptsvg/real.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg6 {
+  background-image: url("./aduptsvg/cart.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg7 {
+  background-image: url("./aduptsvg/fork.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg8 {
+  background-image: url("./aduptsvg/energy.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg9 {
+  background-image: url("./aduptsvg/menu.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-svg10 {
+  background-image: url("./aduptsvg/bean.svg");
+  background-repeat: no-repeat;
+}
+
+.adupt-cards:hover .Industries {
+  text-decoration: underline #b7b7b7 50%;
+  text-decoration-thickness: 1.5px;
+  --webkit-text-decoration-thickness: 1.5px;
+}
+@media (max-width: 1440px) {
+  .adupt-cards {
+    width: 300px;
+    height: 229px;
+  }
+}
+@media (max-width: 1023px) {
+  .home-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .adupt-cards {
+    width: 40%;
+  }
+  .adupt-cards:hover {
+    filter: invert(0);
+  }
+  .adupt-cards:hover .Industries {
+    text-decoration: none;
+  }
+  .adupt-svg {
+    background-image: url("./aduptsvg/ydolloar.svg");
+  }
+
+  .adupt-svg2 {
+    background-image: url("./aduptsvg/ysuply.svg");
+  }
+  .adupt-svg3 {
+    background-image: url("./aduptsvg/ybulb.svg");
+  }
+  .adupt-svg4 {
+    background-image: url("./aduptsvg/yheart.svg");
+  }
+  .adupt-svg5 {
+    background-image: url("./aduptsvg/ystate.svg");
+  }
+  .adupt-svg6 {
+    background-image: url("./aduptsvg/ycart.svg");
+  }
+  .adupt-svg7 {
+    background-image: url("./aduptsvg/yfork.svg");
+  }
+  .adupt-svg8 {
+    background-image: url("./aduptsvg/yenergy.svg");
+  }
+  .adupt-svg9 {
+    background-image: url("./aduptsvg/ymenu.svg");
+  }
+  .adupt-svg10 {
+    background-image: url("./aduptsvg/ybean.svg");
+  }
+}
+@media (max-width: 800px) {
+  .adupt-cards {
+    height: 259px;
+  }
+}
+@media (max-width: 640px) {
+  .client-logos {
+    .b {
+      width: 50%;
+    }
+  }
+  .adupt-cards {
+    width: 40%;
+    height: 170px;
+  }
+  .adupt-svg10,
+  .adupt-svg,
+  .adupt-svg2,
+  .adupt-svg3,
+  .adupt-svg4,
+  .adupt-svg5,
+  .adupt-svg6,
+  .adupt-svg7,
+  .adupt-svg8,
+  .adupt-svg9 {
+    background-size: 48px 48px;
+  }
+}
+
+@media (max-width: 540px) {
+  .client-logos {
+    .b {
+      width: 40%;
+    }
+    img {
+      width: 50%;
+    }
+  }
+}

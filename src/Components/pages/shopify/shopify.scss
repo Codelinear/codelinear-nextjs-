@@ -1,0 +1,126 @@
+.blog-more {
+    .swiper-pagination-bullet-active {
+        fill: #ffcd05 !important;
+        background-color: #ffcd05 !important;
+    }
+
+    .swiper {
+        width: 100% !important;
+
+        .swiper-slide {
+            width: 317px !important;
+            margin-left: 80px !important;
+            margin-right: 20px !important;
+        }
+
+        .swiper-slide:last-child {
+            margin-right: 80px !important;
+        }
+    }
+
+    .swiper-pagination-bullet {
+        width: 10.81px !important;
+        height: 10.81px !important;
+        margin: 0 !important;
+    }
+
+    .swiper-pagination {
+        display: inline-flex;
+        gap: 6px;
+        position: relative;
+        top: -100px !important;
+        justify-content: center;
+    }
+}
+
+.container {
+    width: 600vw;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel {
+    width: 400px;
+    height: 100vh;
+}
+
+@media (min-width: 1900px) {
+    .blog-more {
+        .swiper {
+            width: 100% !important;
+
+            .swiper-slide {
+                width: 500px !important;
+            }
+        }
+
+        .swiper-pagination {
+            top: 0px !important;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .blog-more {
+        .swiper {
+            width: 100% !important;
+
+            .swiper-slide {
+                width: 317px !important;
+                margin-left: 40px !important;
+                margin-right: 20px !important;
+            }
+
+            .swiper-slide:last-child {
+                margin-right: 40px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .blog-more {
+        .swiper-pagination {
+            display: none;
+        }
+
+        .swiper {
+            width: 100% !important;
+
+            .swiper-slide {
+                width: 317px !important;
+                margin-left: 25px !important;
+                margin-right: 0px !important;
+            }
+
+            .swiper-slide:last-child {
+                margin-right: 40px !important;
+            }
+
+            .swiper-slide:first-child {
+                margin-left: 40px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .blog-more {
+        .swiper {
+            .swiper-slide {
+                width: 275px !important;
+                margin-left: 32px !important;
+                margin-right: 0px !important;
+            }
+
+            .swiper-slide:last-child {
+                margin-right: 20px !important;
+            }
+
+            .swiper-slide:first-child {
+                margin-left: 20px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+.intersect {
+  width: 0px;
+  position: absolute;
+}
+.arrowanimate {
+  position: relative;
+  left: 213px;
+  bottom: 60px;
+  opacity: 0;
+}
+.react-tabs__tab--selected {
+  background-color: #fbfbfbbb !important;
+  border-left: 2px solid black;
+  border-bottom: transparent;
+  border-radius: 0 !important;
+}
+.we {
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: normal;
+  position: relative;
+  bottom: 107px;
+  left: 220px;
+  opacity: 0;
+}
+.arrow-small {
+  display: none;
+}
+.circle11 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 1;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+}
+.circle20 {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+}
+.circles-animation {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+  margin: 60px 0 120px 0;
+}
+.text-graph {
+  display: none;
+  opacity: 0;
+}
+@media (min-width: 1900px) {
+  .circle11,
+  .circle20,
+  .we {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .we{
+    left: 238px;
+  }
+  .arrowanimate {
+    position: relative;
+    left: 233px;
+  }
+}
+@media (min-width: 2500px) {
+  .circle11,
+  .circle20,
+  .we {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .we{
+    left: 258px;
+  }
+  .arrowanimate {
+    position: relative;
+    left: 253px;
+  }
+}
+@media (max-width: 900px) {
+  .we {
+    display: none;
+  }
+  .arrowanimate {
+    display: none;
+  }
+  .arrow-small {
+    display: block;
+    margin-top: 330px;
+    opacity: 0;
+    margin-left: 2px;
+  }
+  .circles-animation {
+    position: relative;
+  }
+  .text-graph {
+    display: block;
+    position: absolute;
+    bottom: -175px;
+  }
+}
+
+@media (max-width: 640px) {
+  .arrowanimate {
+    position: relative;
+    left: 0px;
+    bottom: 60px;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .about-comit {
+    .gap-3 {
+      width: 43%;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .circles-animation {
+    transform: scale(0.6);
+  }
+  .circle20 {
+    font-size: 25px;
+  }
+  .text-graph {
+    font-size: 25px;
+    bottom: -185px;
+  }
+}
+@media (max-width: 400px) {
+  .circles-animation {
+    transform: scale(0.45);
+  }
+}

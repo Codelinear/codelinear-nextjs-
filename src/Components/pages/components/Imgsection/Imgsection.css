@@ -1,0 +1,121 @@
+.imageSectioncarrer {
+  padding: 120px 0px 56px 80px;
+  display: flex;
+  gap: 100px;
+}
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  height: 715px;
+  justify-content: space-between;
+}
+.sub-container-career {
+  overflow-x: hidden;
+}
+.contentArea h2 {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  padding-right: 80px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  width: 588px;
+}
+.contentArea img {
+  margin-left: 120px;
+}
+@media only screen and (min-width: 1900px) {
+  .contentArea {
+    height: auto;
+    justify-content: start;
+    gap: 120px;
+  }
+  .contentArea h2 {
+    font-size: 40px;
+    width: 600px;
+  }
+  .contentArea img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .contentArea{
+    width: 100%;
+  }
+  .imgArea{
+    width: 100%;
+  }
+  .imgArea img{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  .contentArea h2 {
+    font-size: 50px;
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 1310px) {
+  .imageSectioncarrer {
+    padding-left: 0px;
+    flex-direction: column;
+  }
+  .imgArea {
+    display: flex;
+    justify-content: center;
+  }
+  .contentArea h2 {
+    margin-left: 40px;
+  }
+  .sub-container-career {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .imageSectioncarrer {
+    display: block;
+    padding: 57px 0px 55px 0px;
+  }
+  .contentArea h2 {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: -1.08px;
+  }
+  .imgArea {
+    padding: 20px;
+    display: block;
+    width: 100%;
+  }
+  .imgArea img {
+    width: 100%;
+  }
+  .contentArea {
+    gap: 40px;
+  }
+  .contentArea h2 {
+    margin-left: 0;
+    margin-top: 62px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  .sub-container-career {
+    padding-left: 20px;
+    display: block;
+    margin-left: 0;
+  }
+  .sub-container-career img {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .contentArea {
+    height: auto;
+  }
+}

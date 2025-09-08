@@ -1,0 +1,37 @@
+.index-hover {
+  display: none;
+}
+.hover-logo:hover .index-hover {
+  display: block;
+}
+.hover-logo:hover .index-hover2 {
+  display: none;
+}
+.shadow-custom{
+  box-shadow: 0px -70px 50px white;
+}
+.category-section {
+  .active {
+    background-color: black;
+    div {
+      color: #fff !important;
+    }
+  }
+}
+.lists {
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  background: white;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  padding: 0px 0 40px 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.stop-scrolling {
+  // height: 100vh;
+  // top: ;
+  overflow: hidden;
+}

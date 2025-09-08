@@ -1,0 +1,257 @@
+@import "tailwindcss";
+
+/* @import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: Graphik;
+  src: url(./GraphikRegular.woff2);
+  font-display: swap;
+}
+@font-face {
+  font-family: mono chivo;
+  src: url(./ChivoMono-Medium.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: GraphikTri;
+  src: url(./Graphik-Regular-Trial.otf);
+  font-display: swap;
+  font-weight: 400;
+}
+
+@theme {
+  --breakpoint-mini: 440px;
+  --breakpoint-1sm: 540px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 769px;
+  --breakpoint-hamburger: 901px;
+  --breakpoint-2md: 1000px;
+  --breakpoint-lg: 1025px;
+  --breakpoint-2lg: 1085px;
+  --breakpoint-3lg: 1135px;
+  --breakpoint-1lg: 1260px;
+  --breakpoint-xl: 1281px;
+  --breakpoint-1xl: 1367px;
+  --breakpoint-2xl: 1426px;
+  --breakpoint-bigscreen: 1600px;
+  --breakpoint-widescreen: 1900px;
+  --breakpoint-widerscreen: 2200px;
+  --breakpoint-widestscreen: 2500px;
+}
+/* * {
+  scrollbar-width: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+} */
+*::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: Graphik;
+}
+.font-\[\'Archivo\'\] {
+  font-family: Archivo, sans-serif !important;
+  font-weight: 500;
+}
+
+.blur-background {
+  background-image: url("../Components/pages/tradejini/assets/image\ 194.jpg");
+  /* background-image: url(".../Components/pages/"); */
+  background-repeat: no-repeat;
+}
+.bg-cowboy {
+  background-image: url("../Components/pages/vouri copy 4/assets/josh-nuttall-XVTWFHcNIko-unsplash\ 1\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.bg-deel {
+  background-image: url("../Components/pages/vouri copy 5/assets/image\ 198.png");
+  background-repeat: no-repeat;
+}
+.bg-soch {
+  background-image: url("../Components/pages/vouri copy 18/assets/image\ 190\ \(2\).png");
+  background-repeat: no-repeat;
+}
+.bg-sodashi {
+  background-image: url("../Components/pages/vouri copy 14/assets//image\ 38\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.bg-convoy {
+  background-image: url("../Components/pages/vouri copy 6/assets/image\ 215.png");
+  background-repeat: no-repeat;
+}
+.bg-kernel {
+  background-image: url("../Components/pages/vouri copy 2/assets/image\ 220.jpg");
+  background-repeat: no-repeat;
+}
+.bg-mica {
+  background-image: url("../Components/pages/vouri copy 11/assets/image\ 218.png");
+  background-repeat: no-repeat;
+}
+.bg-hero {
+  background-image: url("../Components/pages/vouri copy 10/assets/image\ 217.png");
+  background-repeat: no-repeat;
+}
+.bg-steel {
+  background-image: url("../Components/pages/vouri copy 15/assets/image\ 203.png");
+  background-repeat: no-repeat;
+}
+.bg-move {
+  background-image: url("../Components/pages/vouri copy 17/assets/image\ 204\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.bg-travels {
+  background-image: url("../Components/pages/vouri copy 20/assets/image\ 221.png");
+  background-repeat: no-repeat;
+}
+.bg-neat {
+  background-image: url("../Components/pages/vouri copy 16/assets/image\ 206\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.bg-booking {
+  background-image: url("../Components/pages/vouri copy 13/assets/image\ 211.png");
+  background-repeat: no-repeat;
+}
+.bg-lit {
+  background-image: url("../Components/pages/vouri copy 12/assets/image\ 219.png");
+  background-repeat: no-repeat;
+}
+.bg-middle {
+  background-image: url("../Components/pages/vouri copy 8/assets/image\ 214\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.bg-lyra {
+  background-image: url("../Components/pages/vouri copy 7/assets/image\ 195.png");
+  background-repeat: no-repeat;
+}
+.bg-klub {
+  background-image: url("../Components/pages/vouri copy/assets/Frame\ 1000001741\ \(1\).jpg");
+  background-repeat: no-repeat;
+}
+.bg-mango {
+  background-image: url("../Components/pages/vouri copy 19/assets/image\ 197.png");
+  background-repeat: no-repeat;
+}
+.bg-ikea {
+  background-image: url("../Components/pages/vouri copy 9/assets/spacejoy-IH7wPsjwomc-unsplash\ 1\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.blur-background-contrasted {
+  background-image: url("../Components/pages/contrasted/assets/image\ 213.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-kanbar {
+  background-image: url("../Components/pages/kanbar/assets/clem-onojeghuo--KOBd29EtYk-unsplash\ 1.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-klass {
+  background-image: url("../Components/pages/klassenandsmith/assets/image\ 225.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-land {
+  background-image: url("../Components/pages/landmark/assets/image\ 207.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-lah {
+  background-image: url("../Components/pages/leafandhive/assets/Copy\ of\ MoonlightStudios_LAH_10232022_park_1908\ 1.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-sea {
+  background-image: url("../Components/pages/sea/assets/oleg-laptev-QRKJwE6yfJo-unsplash\ 1.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-vs {
+  background-image: url("../Components/pages/vacystay/assets/image\ 212.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-ww {
+  background-image: url("../Components/pages/wearwell/assets/image\ 196.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-sdu {
+  background-image: url("../Components/pages/singhvi/assets/image\ 205.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-wab {
+  background-image: url("../Components/pages/william/assets/image\ 191.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-imapac {
+  background-image: url("../Components/pages/imapac/assets/image\ 209.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-vouri {
+  background-image: url("../Components/pages/vouri/assets/image\ 193.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-hrus {
+  background-image: url("../Components/pages/homesrus/assets/image\ 216.jpg");
+  background-repeat: no-repeat;
+}
+.blur-background-iea {
+  background-image: url("../Components/pages/vouri copy 21/assets/Rectangle 1.png");
+  background-repeat: no-repeat;
+}
+.blur-background-digital {
+  background-image: url("../Components/pages/vouri copy 22/assets/Rectangle 1.png");
+  background-repeat: no-repeat;
+}
+.bg-wool {
+  background-image: url("../Components/pages/vouri copy 23/assets/Rectangle 1.png");
+  background-repeat: no-repeat;
+}
+.bg-altitude {
+  background-image: url("../Components/pages/vouri copy 24/assets/Rectangle 1.png");
+  background-repeat: no-repeat;
+}
+.bg-localseo {
+  background-image: url("../Components/pages/vouri copy 25/assets/Rectangle 1.png");
+  background-repeat: no-repeat;
+}
+.preformatted-text {
+  width: 475px;
+  font-family: "graphik", sans-serif;
+  display: block;
+  white-space: normal;
+}
+.gradient-color-yellow {
+  background: linear-gradient(107.7deg, #ffc324 0%, #ffcd05 98.97%);
+}
+.soft-light {
+  mix-blend-mode: soft-light;
+}
+.gradient-color-black {
+  background: #202941e5;
+  background-blend-mode: multiply;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background-blend-mode: luminosity;
+  background: radial-gradient(
+    48.56% 192.75% at 28.5% 57.43%,
+    rgba(68, 102, 140, 0.4) 0%,
+    rgba(19, 35, 82, 0.4) 100%
+  );
+  background: linear-gradient(107.32deg, rgba(0, 0, 0, 0) 30.56%, #030715 100%);
+}
+.mix-blend-mode {
+  mix-blend-mode: color-dodge;
+}
+@media (max-width: 640px) {
+  .blur-background-sea {
+    background-position: 33% 0;
+  }
+  .preformatted-text {
+    width: 100%;
+  }
+}
+
+.shopify-page {
+  max-width: 1440px;
+  margin: 0 auto;
+}

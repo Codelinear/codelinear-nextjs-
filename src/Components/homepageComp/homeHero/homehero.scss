@@ -1,0 +1,221 @@
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 10px;
+  left: 0;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #7ba0ff;
+}
+.hero-height {
+  height: calc(100vh - 115px);
+}
+.letter-spacing-1,
+.letter-spacing {
+  letter-spacing: -1.98px;
+}
+.letter-spacing-2 {
+  letter-spacing: -1.44px;
+}
+.letter-spacing-3 {
+  letter-spacing: -0.64px;
+}
+.letter-spacing-4 {
+  letter-spacing: -0.24px;
+}
+.letter-spacing-5 {
+  letter-spacing: -3.51px;
+}
+.letter-spacing-6 {
+  letter-spacing: -1.08px;
+}
+.letter-spacing-7 {
+  letter-spacing: -7.75px;
+}
+.hero-animate {
+  .swiper-pagination {
+    display: inline-flex;
+    gap: 6px;
+    position: absolute;
+    left: 530px !important;
+    top: 238px !important;
+  }
+  .mySwiper {
+    margin-right: 0 !important;
+  }
+  .autoplay-progress {
+    position: relative;
+    width: 310px;
+    margin-left: 316px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: -2px;
+  }
+  .autoplay-progress4 {
+    position: relative;
+    width: 310px;
+    margin-left: 316px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: -12px;
+  }
+  .autoplay-progress3 {
+    position: relative;
+    width: 310px;
+    margin-left: 316px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: -12px;
+  }
+  .autoplay-progress2 {
+    position: relative;
+    width: 310px;
+    margin-left: 316px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: -12px;
+  }
+  .autoplay-progress1 {
+    position: relative;
+    width: 310px;
+    margin-left: 316px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: -12px;
+  }
+  .swiper-pagination-bullet-active {
+    fill: #ffcd05 !important;
+    background-color: #ffcd05 !important;
+  }
+  .swiper-pagination-bullet {
+    width: 10.81px !important;
+    height: 10.81px !important;
+    margin: 0 !important;
+  }
+  .progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #7ba0ff;
+    opacity: 0.7;
+    transition: width 0s ease;
+  }
+  .progress-bar1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #dfc18b;
+    opacity: 0.7;
+    transition: width 0s ease;
+  }
+  .progress-bar2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #98c1e6;
+    opacity: 0.7;
+    transition: width 0s ease;
+  }
+  .progress-bar3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #c2cfcf;
+    opacity: 0.7;
+    transition: width 0s ease;
+  }
+  .progress-bar4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #a7bffc;
+    opacity: 0.7;
+    transition: width 0s ease;
+  }
+}
+@media (min-width: 1600px) {
+  .hero-animate {
+    .swiper-pagination {
+      left: 630px !important;
+      top: 338px !important;
+    }
+    .autoplay-progress {
+      width: 298px;
+      margin-left: 432px;
+    }
+    .autoplay-progress4 {
+      width: 298px;
+      margin-left: 432px;
+    }
+    .autoplay-progress3 {
+      width: 298px;
+      margin-left: 432px;
+    }
+    .autoplay-progress2 {
+      width: 298px;
+      margin-left: 432px;
+    }
+    .autoplay-progress1 {
+      width: 298px;
+      margin-left: 432px;
+    }
+  }
+}
+@media (min-width: 2500px) {
+  .hero-animate {
+    .swiper-pagination {
+      left: 730px !important;
+      top: 338px !important;
+    }
+    .autoplay-progress {
+      width: 413px;
+    }
+    .autoplay-progress4 {
+      width: 413px;
+    }
+    .autoplay-progress3 {
+      width: 413px;
+    }
+    .autoplay-progress2 {
+      width: 413px;
+    }
+    .autoplay-progress1 {
+      width: 413px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .swiper-pagination {
+    left: 0px !important;
+  }
+  .letter-spacing-7 {
+    letter-spacing: -3.44px;
+  }
+  .hero-height {
+    height: auto;
+  }
+}
+@media (max-width: 640px) {
+  .hero-animate {
+    .autoplay-progress {
+      display: none;
+    }
+    .swiper-pagination {
+      left: calc(100% - 100px) !important;
+      top: calc(100% - 30px) !important;
+    }
+  }
+  .letter-spacing-7 {
+    letter-spacing: -1.44px;
+  }
+}
