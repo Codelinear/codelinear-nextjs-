@@ -20,6 +20,9 @@ export const metadata = {
   title: "Codelinear",
   description:
     "Welcome to Codelinear - your go-to destination for cutting-edge software solutions. Explore our expertise in app development and modernization, game development, software consulting, AR/VR development, and more.",
+  icons: {
+    icon: "/Favicon.ico", // path to public/favicon.ico
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -41,7 +44,9 @@ export default function RootLayout({ children }) {
           name="keywords"
           content="software solutions, application development solutions, mobile apps development, software consulting agency, cloud computing service, Codelinear, codelinear, codelinea, code, software service, game developers, game development service, software solutions in bangalore, sharepoint service, sharepoint services, app development services, product design, UI design, UI design services, UI designer, web developer"
         />
+
         <link rel="icon" href="/Favicon.svg" />
+        <link rel="icon" href="/Favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="canonical" href="https://codelinear.com" />
         <link

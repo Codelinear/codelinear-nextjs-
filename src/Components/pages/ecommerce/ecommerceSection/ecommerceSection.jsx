@@ -61,9 +61,49 @@ const ESection = () => {
               e-commerce for streamlined business operations and growth.
             </p>
           </div>
-          <div className="prod-sub-container">
+          <div className="prod-sub-container ">
             <Image src={img4} alt="Shopify" className="w-[57px] h-[57px]" />
-            <h3>Shopify</h3>
+            <div className="flex justify-between items-center w-full">
+              <h3>Shopify</h3>
+              <Link
+                href="/services/ecommerce/shopify"
+                className="hover:bg-yellow-400 hover:border-yellow-400 arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] border border-black justify-center items-center inline-flex"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="21"
+                  viewBox="0 0 32 21"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_3151_160)">
+                    <path
+                      d="M2.76496 10.7594L29.5498 10.7594"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M25.4561 6.66579L29.5496 10.7592L25.4561 14.8527"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_3151_160">
+                      <rect
+                        width="31"
+                        height="21"
+                        fill="white"
+                        transform="translate(31.7847 21) rotate(-180)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>{" "}
+              </Link>
+            </div>
+
             <p>
               E-commerce solution empowering businesses with user-friendly
               tools, customizable themes, and secure payment gateways for
